@@ -17,7 +17,7 @@ class User(object):
         for user in self.following:
             for post in user.posts:
                 time_line_posts.append(post)
-        # how to sort time_line_posts by timestamp? 
+        # how to sort time_line_posts? 
         return time_line_posts
         
 

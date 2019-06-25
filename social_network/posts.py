@@ -11,7 +11,7 @@ class Post(object):
         self.user = None
 
     def set_user(self, user):
-                #user instance object
+        #user instance object
         self.user = user
 
 
